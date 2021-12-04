@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/* FontAwesome */
+
+
+.background-image {
+    /* background-image: url("https://cdn.pixabay.com/photo/2020/10/24/03/09/biking-5680458_960_720.jpg"); */
+    background: linear-gradient(rgba(36, 35, 35, 0.5), rgba(34, 34, 34, 0.5)),
+        url("https://cdn.pixabay.com/photo/2020/10/24/03/09/biking-5680458_960_720.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+}
